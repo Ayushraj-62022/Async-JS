@@ -1,0 +1,5 @@
+A callback is a function that is passed as an argument to another function and is executed after the first function completes its operation. Callbacks are commonly used in JavaScript for handling asynchronous operations, such as making an HTTP request.
+
+A promise is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value. Promises provide a simpler way to handle asynchronous operations compared to callbacks by allowing you to chain multiple operations together and handle errors in a more elegant way.
+
+Async/await is a more recent addition to JavaScript that provides a way to write asynchronous code that looks and behaves like synchronous code. It uses the async keyword to declare a function that returns a promise, and the await keyword to wait for a promise to resolve before continuing with the execution.

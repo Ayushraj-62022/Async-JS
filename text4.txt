@@ -1,0 +1,25 @@
+API stands for Application Programming Interface, which is a set of protocols and definitions that allows communication between two software. APIs provide instructions for building and integrating application software that can access the features or data of another application.
+
+API requests are made to the server, then the responses are returned to the app. See a visual depiction of this process below:
+
+API-Requests
+
+Introduction to browser APIs
+Browser APIs are APIs that are built into the browser and provide native features that can also be used in a web app. These can also be called web APIs.
+
+With the use of web APIs, we can easily implement certain features with fewer lines of code, such as:
+
+making network requests
+managing client-side storage
+retrieving device media streams, etc.
+Categories of browser APIs
+Web APIs can be grouped into different categories depending on the functions they perform.
+
+Fetch API: These are capable of making HTTP requests to a web server. The response can be in JSON, plain text, or XML format. The fetch API is a modern replacement for XHR. It was introduced in browsers recently to make asynchronous HTTP requests easier.
+APIs for manipulating document structure: APIs such as the DOM (Document Object Model) API can be placed in this category. This allows you to manipulate HTML and CSS in creating, removing, and also dynamically applying new styles to your page.
+
+Device APIs: These are APIs that give mobile functionality to web apps. Many APIs have been developed to help extend and shape the functionality of the web to match the capabilities of modern devices. A good example is the Geolocation API, which is used to get the geographical position of a user. It takes advantage of the device’s capability to pinpoint the user’s location that can then be used in the web app.
+
+APIs for drawing graphics: Modern web browsers today now support the creation of graphics on the web. One of the APIs is the Canvas API. It provides a means for drawing graphics using JavaScript and HTML. Different shapes, objects, and styles can be created using this API. The Canvas API is solely based on 2D graphics, currently.
+
+Storage APIs: These APIs give the ability to store data on the client-side, which is very useful for storing certain user data for some time. One of which is the Web Storage API. These can either be the sessionStorage, which keeps data for the duration of the session, or the localStorage, which retains the data even after the browser is closed.
